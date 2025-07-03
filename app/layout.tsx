@@ -1,8 +1,17 @@
-import type { Metadata } from "next";
+import "@mantine/core/styles.css";
+import "@mantine/charts/styles.css";
+import {
+  ColorSchemeScript,
+  mantineHtmlProps,
+  MantineProvider,
+} from "@mantine/core";
+import React from "react";
+import { Metadata } from "next";
+import { theme } from "@/theme";
 
 export const metadata: Metadata = {
-  title: "Next.js on GitHub Pages",
-  description: "Deploy your static Next.js site to GitHub Pages.",
+  title: "Kommunaalkulud Kesk-Vaela 8",
+  description: "Korteri kulude arvestus",
 };
 
 export default function RootLayout({
@@ -11,8 +20,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" {...mantineHtmlProps}>
+      <head>
+        <ColorSchemeScript />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
+        />
+      </head>
+      <body>
+        <MantineProvider theme={theme}>{children}</MantineProvider>
+      </body>
     </html>
   );
 }

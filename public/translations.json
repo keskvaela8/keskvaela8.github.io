@@ -1,0 +1,357 @@
+[
+    {
+        "key": "WATER",
+        "en": "Water",
+        "et": "Vesi"
+    },
+    {
+        "key": "WATER_SUBSCRIPTION_FEE_PER_APARTMENT",
+        "en": "Water subscription fee per apartment",
+        "et": "Vee abonenttasu korteri kohta"
+    },
+    {
+        "key": "COLD_WATER_READING_AT_PERIOD_START",
+        "en": "Cold water reading at period start",
+        "et": "Külma vee näit perioodi algul"
+    },
+    {
+        "key": "SIGN_IN_WITH_GOOGLE",
+        "en": "Sign in with Google",
+        "et": "Sisene Google kontoga"
+    },
+    {
+        "key": "CONTINUE_ANONYMOUSLY",
+        "en": "Continue anonymously",
+        "et": "Jätka anonüümselt"
+    },
+    {
+        "key": "CONTINUE_ANONYMOUS_NOTE",
+        "en": "If you continue anonymously you won't be able to publish your water readings",
+        "et": "Anonüümselt jätkates ei ole võimalik rakenduse kaudu veenäite esitada"
+    },
+    {
+        "key": "GOOGLE_SIGN_IN_NOTE",
+        "en": "Google sign in will ask for an authorized access to Google Sheet. This is necessary to send water readings to monthly sheet through API",
+        "et": "Google kontoga sisenemisel küsitakse nõusolekut Google Sheet teenusele. See on vajalik, et rakendusega saaks üle API veenäite esitada"
+    },
+    {
+        "key": "SIGN_IN_SCREEN_TITLE",
+        "en": "Kesk-Vaela 8 KÜ",
+        "et": "Kesk-Vaela 8 KÜ"
+    },
+    {
+        "key": "WELCOME",
+        "en": "Welcome",
+        "et": "Teretulemast"
+    },
+    {
+        "key": "CHOOSE_APARTMENT_NUMBER",
+        "en": "Choose your apartment number",
+        "et": "Vali oma korteri number"
+    },
+    {
+        "key": "APARTMENT_CHOICE_NOTE",
+        "en": "Chosen apartment can be changed from the settings menu later",
+        "et": "Valitud korteri numbrit saab hiljem sätete menüüst muuta"
+    },
+    {
+        "key": "NOTES",
+        "en": "Notes",
+        "et": "Hea teada"
+    },
+    {
+        "key": "SELECT_APARTMENT",
+        "en": "Select apartment",
+        "et": "Vali korter"
+    },
+    {
+        "key": "APARTMENT",
+        "en": "Apartment",
+        "et": "Korter"
+    },
+    {
+        "key": "PERIOD",
+        "en": "Period",
+        "et": "Periood"
+    },
+    {
+        "key": "TOTAL",
+        "en": "Total",
+        "et": "Kokku"
+    },
+    {
+        "key": "NOTIFICATIONS",
+        "en": "Notifications",
+        "et": "Teavitused"
+    },
+    {
+        "key": "HOME_TAB",
+        "en": "Home",
+        "et": "Avakuva"
+    },
+    {
+        "key": "ADD_READING_TAB",
+        "en": "Add reading",
+        "et": "Lisa näit"
+    },
+    {
+        "key": "STATISTICS_TAB",
+        "en": "Statistics",
+        "et": "Statistika"
+    },
+    {
+        "key": "PAYMENT_FOR_PERIOD_IS_DUE",
+        "en": "{{PROVIDER}} payment for period {{PERIOD}} is due",
+        "et": "{{PROVIDER}} makse tähtaeg perioodiks {{PERIOD}} on möödunud"
+    },
+    {
+        "key": "PAYMENT_FOR_PERIOD_IS_TODAY",
+        "en": "{{PROVIDER}} payment for period {{PERIOD}} is today",
+        "et": "{{PROVIDER}} makse tähtaeg perioodiks {{PERIOD}} on täna"
+    },
+    {
+        "key": "EARLIEST_DUE_DATE_FOR_PAYMENT",
+        "en": "Earliest due date for payment",
+        "et": "Esimese makse tähtaeg"
+    },
+    {
+        "key": "VIEW_PERIOD_PRICELIST",
+        "en": "View period pricelist",
+        "et": "Vaata perioodi hinnakirja"
+    },
+    {
+        "key": "ELECTRICITY",
+        "en": "Electricity",
+        "et": "Elekter"
+    },
+    {
+        "key": "ELECTRICITY_NETWORK",
+        "en": "Electricity network",
+        "et": "Võrgutasu"
+    },
+    {
+        "key": "SELECT_PERIOD",
+        "en": "Select period",
+        "et": "Vali periood"
+    },
+    {
+        "key": "ELECTRICITY_FEE",
+        "en": "Electricity fee",
+        "et": "Elektri hind"
+    },
+    {
+        "key": "WATER_FEE",
+        "en": "Water fee",
+        "et": "Vee hind"
+    },
+    {
+        "key": "ELECTRICITY_NETWORK_FEE",
+        "en": "Electricity network fee",
+        "et": "Elektri ülekandetasu"
+    },
+    {
+        "key": "PAYABLE",
+        "en": "Payable",
+        "et": "Maksta"
+    },
+    {
+        "key": "OR",
+        "en": "OR",
+        "et": "VÕI"
+    },
+    {
+        "key": "SELECT_LANGUAGE",
+        "en": "Select language",
+        "et": "Vali keel"
+    },
+    {
+        "key": "APARTMENT",
+        "en": "Apartment",
+        "et": "Korter"
+    },
+    {
+        "key": "SETTINGS",
+        "en": "Settings",
+        "et": "Seaded"
+    },
+    {
+        "key": "SWITCH_THEME",
+        "en": "Switch theme",
+        "et": "Vaheta teemat"
+    },
+    {
+        "key": "LOG_OUT",
+        "en": "Log out",
+        "et": "Logi välja"
+    },
+    {
+        "key": "LOGGED_IN_AS_GUEST",
+        "en": "Logged in as guest",
+        "et": "Sisselogitud külalisena"
+    },
+    {
+        "key": "HOUSEHOLD_ELECTRICITY",
+        "en": "Household consumption",
+        "et": "Korteri tarbimine"
+    },
+    {
+        "key": "ELECTRICITY_READING_AT_PERIOD_START",
+        "en": "Electricity reading at period start",
+        "et": "Elektrinäit perioodi algul"
+    },
+    {
+        "key": "ELECTRICITY_READING_AT_PERIOD_END",
+        "en": "Electricity reading at period end",
+        "et": "Elektrinäit perioodi lõpus"
+    },
+    {
+        "key": "ELECTRICITY_ON_HOT_WATER",
+        "en": "Electricity on hot water",
+        "et": "Elektrikulu soojale veele"
+    },
+    {
+        "key": "ELECTRICITY_ON_HEATING",
+        "en": "Electricity on heating",
+        "et": "Elektrikulu küttele"
+    },
+    {
+        "key": "ELECTRICITY_NETWORK_SUBSCRIPTION_PER_APARTMENT",
+        "en": "Electricity network subscription per apartment",
+        "et": "Elektri võrgutasu korteri kohta"
+    },
+    {
+        "key": "ELECTRICITY_NETWORK_RENEWABLE_FEE",
+        "en": "Electricity network renewable fee",
+        "et": "Taastuvenergia tasu"
+    },
+    {
+        "key": "ELECTRICITY_NETWORK_EXCISE_TAX",
+        "en": "Electricity network excise tax",
+        "et": "Elektriaktsiis"
+    },
+    {
+        "key": "WATER_SUBSCRIPTION_PER_APARTMENT",
+        "en": "Water subscription per apartment",
+        "et": "Abonenttasu korteri kohta"
+    },
+    {
+        "key": "GENERAL_COLD_WATER",
+        "en": "General cold water",
+        "et": "Üldvesi"
+    },
+    {
+        "key": "HOT_WATER",
+        "en": "Hot water",
+        "et": "Soe vesi"
+    },
+    {
+        "key": "HOT_WATER_READING_AT_PERIOD_START",
+        "en": "Hot water reading at period start",
+        "et": "Sooja vee näit perioodi algul"
+    },
+    {
+        "key": "HOT_WATER_READING_AT_PERIOD_END",
+        "en": "Hot water reading at period end",
+        "et": "Sooja vee näit perioodi lõpus"
+    },
+    {
+        "key": "COLD_WATER",
+        "en": "Cold water",
+        "et": "Külm vesi"
+    },
+    {
+        "key": "COLD_WATER_READING_AT_PERIOD_END",
+        "en": "Cold water reading at period end",
+        "et": "Külma vee näit perioodi lõpus"
+    },
+    {
+        "key": "BILL_NUMBER",
+        "en": "Bill number",
+        "et": "Arve number"
+    },
+    {
+        "key": "RECEIVER",
+        "en": "Receiver",
+        "et": "Saaja"
+    },
+    {
+        "key": "REFERENCE_NUMBER",
+        "en": "Reference number",
+        "et": "Viitenumber"
+    },
+    {
+        "key": "DUE_DATE",
+        "en": "Due date",
+        "et": "Tähtaeg"
+    },
+    {
+        "key": "MARK_AS_PAID_UNPAID",
+        "en": "Mark as paid/unpaid",
+        "et": "Märgi makstud/maksmata"
+    },
+    {
+        "key": "MARKED_AS_PAID_ON",
+        "en": "Marked as paid on",
+        "et": "Märgitud makstuks"
+    },
+    {
+        "key": "SUBMIT",
+        "en": "Submit",
+        "et": "Esita"
+    },
+    {
+        "key": "SELECT_START_END_TO_VIEW_AVERAGES",
+        "en": "Select start and end period to view averages",
+        "et": "Vali alg- ja lõppkuupäev, et vaadata keskmisi"
+    },
+    {
+        "key": "PRICE_LIST_FOR_PERIOD",
+        "en": "Pricelist for period",
+        "et": "Hinnakiri"
+    },
+    {
+        "key": "PAYMENT_DETAILS_FOR_PERIOD",
+        "en": "payment details",
+        "et": "makse andmed"
+    },
+    {
+        "key": "COPIED_TO_CLIPBOARD",
+        "en": "Copied to clipboard",
+        "et": "Kopeeritud"
+    },
+    {
+        "key": "PAYMENTS_TAB",
+        "en": "Payment",
+        "et": "Maksa"
+    },
+    {
+        "key": "SUBMIT_READINGS",
+        "en": "Submit readings",
+        "et": "Esita näidud"
+    },
+    {
+        "key": "SUBMIT_READINGS_FAILED",
+        "en": "Submit readings failed, please try again later or try logging back in with your Google account",
+        "et": "Näitude esitamine ebaõnnesuts, proovi hiljem uuesti või logi uuesti oma Google kontoga sisse"
+    },
+    {
+        "key": "CURRENT_PERIOD_READINGS_ARE_SUBMITTED",
+        "en": "Current period readings are submitted",
+        "et": "Perioodi näidud on esitatud"
+    },
+    {
+        "key": "READING_CANNOT_BE_EMPTY",
+        "en": "Reading cannot be empty",
+        "et": "Näit ei saa olla tühi"
+    },
+    {
+        "key": "USE_DOT_INSTEAD_OF_COMMA",
+        "en": "Use a dot instead of a comma",
+        "et": "Kasuta koma asemel punkti"
+    },
+    {
+        "key": "NUMBER_WITH_3_DECIMAL_PLACES",
+        "en": "Enter 3 decimal places",
+        "et": "Sisesta 3 komakohta"
+    }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "identifier": "42",
+    "name": "Coop Pank aktsiaselts",
+    "bic": "EKRDEE22"
+  },
+  {
+    "identifier": "16",
+    "name": "Eesti Pank",
+    "bic": "EPBEEE2X"
+  },
+  {
+    "identifier": "10",
+    "name": "AS SEB Pank",
+    "bic": "EEUHEE2X"
+  },
+  {
+    "identifier": "22",
+    "name": "Swedbank AS",
+    "bic": "HABAEE2X"
+  },
+  {
+    "identifier": "96",
+    "name": "Luminor Bank AS",
+    "bic": "RIKOEE22"
+  },
+  {
+    "identifier": "17",
+    "name": "Luminor Bank AS",
+    "bic": "RIKOEE22"
+  },
+  {
+    "identifier": "12",
+    "name": "AS Citadele banka Eesti filiaal",
+    "bic": "PARXEE22"
+  },
+  {
+    "identifier": "83",
+    "name": "Svenska Handelsbanken AB Eesti filiaal",
+    "bic": "HANDEE22"
+  },
+  {
+    "identifier": "00",
+    "name": "AS TBB pank",
+    "bic": "TABUEE22"
+  },
+  {
+    "identifier": "51",
+    "name": "OP Corporate Bank plc Eesti filiaal",
+    "bic": "OKOYEE2X"
+  },
+  {
+    "identifier": "77",
+    "name": "AS LHV Pank",
+    "bic": "LHVBEE22"
+  },
+  {
+    "identifier": "75",
+    "name": "Bigbank AS",
+    "bic": "BIGKEE2B"
+  }
+]
