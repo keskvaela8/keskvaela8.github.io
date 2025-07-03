@@ -37,20 +37,16 @@ export default function Home() {
       <AppShell header={{ height: 50 }} padding="md">
         <AppShell.Header>
           <Group h="100%" gap="xs" justify="space-between">
-            <Group gap="xs">
-              {apartment && <ClearApartmentSelectionButton />}
-            </Group>
-            <Group>
-              {apartment && (
-                <Select
-                  data={selectablePeriods()}
-                  placeholder="Vali periood"
-                  value={selectedPeriod || ""}
-                  onChange={(value) => setSelectedPeriod(value)}
-                  allowDeselect={false}
-                ></Select>
-              )}
-            </Group>
+            {apartment && <ClearApartmentSelectionButton />}
+            {apartment && (
+              <Select
+                data={selectablePeriods()}
+                placeholder="Vali periood"
+                value={selectedPeriod || ""}
+                onChange={(value) => setSelectedPeriod(value)}
+                allowDeselect={false}
+              ></Select>
+            )}
             <ColorSchemeToggle />
           </Group>
         </AppShell.Header>
