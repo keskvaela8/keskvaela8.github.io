@@ -1,0 +1,22 @@
+{
+  "name": "Kesk-Vaela 8",
+  "short_name": "Keskvaela8",
+  "start_url": "/",
+  "id": "KeskVaela8",
+  "display": "standalone",
+  "description": "Tutvu oma korteri kommunaalkuludega ja soorita maksed.",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "1024x1024",
+      "src": "logo.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "1024x1024",
+      "src": "logo.png",
+      "type": "image/png"
+    }
+  ]
+}

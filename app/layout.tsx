@@ -10,8 +10,9 @@ import { Metadata } from "next";
 import { theme } from "@/theme";
 
 export const metadata: Metadata = {
-  title: "Kommunaalkulud Kesk-Vaela 8",
+  title: "Kesk-Vaela 8 kuluarvestus",
   description: "Korteri kulude arvestus",
+  manifest: "/web.manifest",
 };
 
 export default function RootLayout({
