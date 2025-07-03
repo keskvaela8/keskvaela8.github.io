@@ -7,8 +7,7 @@ export function ClearApartmentSelectionButton() {
 
   return (
     <Group gap="xs">
-      <Text visibleFrom="xxs">Korter: </Text>
-      <Text visibleFrom="xxxs">{apartment}</Text>
+      <Text visibleFrom="xxs">Korter: {apartment}</Text>
       <ActionIcon
         variant="subtle"
         color="red"
