@@ -12,15 +12,34 @@ export function useAppState() {
     defaultValue: null,
   });
 
-  // const [userIBAN, setUserIBAN] = useLocalStorage<string | null>({
-  //   key: "user-iban",
-  //   defaultValue: null,
-  // });
+  const [payerIBAN, setPayerIBAN] = useLocalStorage<string | null>({
+    key: "payer-iban",
+    defaultValue: null,
+    getInitialValueInEffect: false,
+  });
+
+  const [payerBIC, setPayerBIC] = useLocalStorage<string | null>({
+    key: "payer-bic",
+    defaultValue: null,
+    getInitialValueInEffect: false,
+  });
+
+  const [payerName, setPayerName] = useLocalStorage<string | null>({
+    key: "payer-name",
+    defaultValue: null,
+    getInitialValueInEffect: false,
+  });
 
   return {
     apartment,
     setApartment,
     selectedPeriod,
     setSelectedPeriod,
+    payerIBAN,
+    setPayerIBAN,
+    payerBIC,
+    setPayerBIC,
+    payerName,
+    setPayerName,
   };
 }

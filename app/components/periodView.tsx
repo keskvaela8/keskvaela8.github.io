@@ -40,7 +40,7 @@ export default function PeriodView() {
         />
       </Grid.Col>
       <Grid.Col span={{ base: 12, md: 6 }}>
-        <PaymentSection apartment={apartmentData} />
+        <PaymentSection apartment={apartmentData} period={periodData.period} />
       </Grid.Col>
     </Grid>
   );

@@ -9,16 +9,21 @@ import {
   Title,
   Tooltip,
 } from "@mantine/core";
-import { Apartment, Consumable } from "../../models/models";
+import { Apartment, Consumable, Period } from "../../models/models";
 import { formatNumber } from "../../util/numberUtil";
 import useTranslation from "../useTranslation";
 import { IconCheck, IconCopy } from "@tabler/icons-react";
+import PaymentExportForm from "./paymentExportForm";
 
 interface PaymentSectionProps {
   apartment: Apartment;
+  period: Period;
 }
 
-export default function PaymentSection({ apartment }: PaymentSectionProps) {
+export default function PaymentSection({
+  apartment,
+  period,
+}: PaymentSectionProps) {
   const { t } = useTranslation();
   const accordionItems = apartment.consumables.map((consumable: Consumable) => (
     <Accordion.Item value={t(consumable.label)} key={consumable.label}>
@@ -47,9 +52,7 @@ export default function PaymentSection({ apartment }: PaymentSectionProps) {
     <Paper withBorder radius="md" p="md" mb="md">
       <Title order={2}>Maksmine</Title>
       <Accordion>{accordionItems}</Accordion>
-      <Text mt="md" fw={700}>
-        Impordi maksed (xml failina) TBD
-      </Text>
+      <PaymentExportForm apartment={apartment} period={period} />
     </Paper>
   );
 }
