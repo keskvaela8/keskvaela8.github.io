@@ -1,40 +1,48 @@
 {
-  "period": { "start": "2025-04-01", "end": "2025-04-30" },
+  "period": { "start": "2025-06-01", "end": "2025-06-30" },
   "apartments": [
     {
       "number": "1",
       "consumables": [
         {
           "label": "WATER",
-          "dueDate": "20.05.2025",
+          "dueDate": "20.07.2025",
           "total": {
-            "consumed": { "value": 7.227000000000027, "unit": "m3" },
-            "payable": { "value": 28.01, "unit": "€" }
+            "consumed": { "value": 7.870499999999996, "unit": "m3" },
+            "payable": { "value": 30.47, "unit": "€" }
           },
           "consumptions": [
             {
               "label": "COLD_WATER_READING_AT_PERIOD_START",
-              "value": 250.325,
+              "value": 258.88,
               "unit": "m3"
             },
             {
               "label": "COLD_WATER_READING_AT_PERIOD_END",
-              "value": 254.816,
+              "value": 264.045,
               "unit": "m3"
             },
-            { "label": "COLD_WATER", "value": 4.491000000000014, "unit": "m3" },
+            {
+              "label": "COLD_WATER",
+              "value": 5.1650000000000205,
+              "unit": "m3"
+            },
             {
               "label": "HOT_WATER_READING_AT_PERIOD_START",
-              "value": 160.606,
+              "value": 165.252,
               "unit": "m3"
             },
             {
               "label": "HOT_WATER_READING_AT_PERIOD_END",
-              "value": 163.067,
+              "value": 167.641,
               "unit": "m3"
             },
-            { "label": "HOT_WATER", "value": 2.4610000000000127, "unit": "m3" },
-            { "label": "GENERAL_COLD_WATER", "value": 0.275, "unit": "m3" }
+            { "label": "HOT_WATER", "value": 2.3889999999999816, "unit": "m3" },
+            {
+              "label": "GENERAL_COLD_WATER",
+              "value": 0.31649999999999423,
+              "unit": "m3"
+            }
           ],
           "prices": [
             { "label": "WATER_FEE", "value": 3.8186, "unit": "€/m3" },
@@ -45,7 +53,7 @@
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "202508050" },
+            { "label": "BILL_NUMBER", "value": "202512228" },
             { "label": "RECEIVER", "value": "Kiili KVH OÜ" },
             { "label": "REFERENCE_NUMBER", "value": "39615" },
             { "label": "Swedbank", "value": "EE112200221017197662" },
@@ -54,47 +62,47 @@
         },
         {
           "label": "ELECTRICITY",
-          "dueDate": "14.05.2025",
+          "dueDate": "14.07.2025",
           "total": {
-            "consumed": { "value": 504.8107265675495, "unit": "KWh" },
-            "payable": { "value": 55.8, "unit": "€" }
+            "consumed": { "value": 318.48933054970524, "unit": "KWh" },
+            "payable": { "value": 35.3, "unit": "€" }
           },
           "consumptions": [
             {
               "label": "HOUSEHOLD_ELECTRICITY",
-              "value": 213.79999999999927,
+              "value": 202.89999999999964,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_START",
-              "value": 10938.2,
+              "value": 11353.1,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_END",
-              "value": 11152,
+              "value": 11556,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HOT_WATER",
-              "value": 88.6087265675503,
+              "value": 72.68833054970557,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HEATING",
-              "value": 202.40199999999993,
+              "value": 42.90100000000001,
               "unit": "KWh"
             }
           ],
           "prices": [
             {
               "label": "ELECTRICITY_FEE",
-              "value": 0.11053366428793049,
+              "value": 0.11081069429962467,
               "unit": "€/KWh"
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "052025040356" },
+            { "label": "BILL_NUMBER", "value": "072025035071" },
             { "label": "RECEIVER", "value": "AS Alexela" },
             { "label": "REFERENCE_NUMBER", "value": "210005863207" },
             { "label": "Swedbank", "value": "EE112200221055476772" },
@@ -104,42 +112,42 @@
         },
         {
           "label": "ELECTRICITY_NETWORK",
-          "dueDate": "19.05.2025",
+          "dueDate": "17.07.2025",
           "total": {
-            "consumed": { "value": 504.8107265675495, "unit": "KWh" },
-            "payable": { "value": 39.63, "unit": "€" }
+            "consumed": { "value": 318.48933054970524, "unit": "KWh" },
+            "payable": { "value": 31.33, "unit": "€" }
           },
           "consumptions": [
             {
               "label": "HOUSEHOLD_ELECTRICITY",
-              "value": 213.79999999999927,
+              "value": 202.89999999999964,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_START",
-              "value": 10938.2,
+              "value": 11353.1,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_END",
-              "value": 11152,
+              "value": 11556,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HOT_WATER",
-              "value": 88.6087265675503,
+              "value": 72.68833054970557,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HEATING",
-              "value": 202.40199999999993,
+              "value": 42.90100000000001,
               "unit": "KWh"
             }
           ],
           "prices": [
             {
               "label": "ELECTRICITY_NETWORK_FEE",
-              "value": 0.03398062061119611,
+              "value": 0.03401297585079927,
               "unit": "€/KWh"
             },
             {
@@ -154,12 +162,12 @@
             },
             {
               "label": "ELECTRICITY_NETWORK_EXCISE_TAX",
-              "value": 0.0017689999999999997,
+              "value": 0.0025619999999999996,
               "unit": "€/KWh"
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "641890940883" },
+            { "label": "BILL_NUMBER", "value": "641185245457" },
             { "label": "RECEIVER", "value": "Enefit AS" },
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
@@ -174,35 +182,39 @@
       "consumables": [
         {
           "label": "WATER",
-          "dueDate": "20.05.2025",
+          "dueDate": "20.07.2025",
           "total": {
-            "consumed": { "value": 6.981999999999994, "unit": "m3" },
-            "payable": { "value": 27.08, "unit": "€" }
+            "consumed": { "value": 7.8325, "unit": "m3" },
+            "payable": { "value": 30.32, "unit": "€" }
           },
           "consumptions": [
             {
               "label": "COLD_WATER_READING_AT_PERIOD_START",
-              "value": 91.622,
+              "value": 99.773,
               "unit": "m3"
             },
             {
               "label": "COLD_WATER_READING_AT_PERIOD_END",
-              "value": 95.335,
+              "value": 104.015,
               "unit": "m3"
             },
-            { "label": "COLD_WATER", "value": 3.712999999999994, "unit": "m3" },
+            { "label": "COLD_WATER", "value": 4.242000000000004, "unit": "m3" },
             {
               "label": "HOT_WATER_READING_AT_PERIOD_START",
-              "value": 64.347,
+              "value": 70.455,
               "unit": "m3"
             },
             {
               "label": "HOT_WATER_READING_AT_PERIOD_END",
-              "value": 67.341,
+              "value": 73.729,
               "unit": "m3"
             },
-            { "label": "HOT_WATER", "value": 2.9939999999999998, "unit": "m3" },
-            { "label": "GENERAL_COLD_WATER", "value": 0.275, "unit": "m3" }
+            { "label": "HOT_WATER", "value": 3.274000000000001, "unit": "m3" },
+            {
+              "label": "GENERAL_COLD_WATER",
+              "value": 0.31649999999999423,
+              "unit": "m3"
+            }
           ],
           "prices": [
             { "label": "WATER_FEE", "value": 3.8186, "unit": "€/m3" },
@@ -213,7 +225,7 @@
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "202508050" },
+            { "label": "BILL_NUMBER", "value": "202512228" },
             { "label": "RECEIVER", "value": "Kiili KVH OÜ" },
             { "label": "REFERENCE_NUMBER", "value": "39615" },
             { "label": "Swedbank", "value": "EE112200221017197662" },
@@ -222,47 +234,43 @@
         },
         {
           "label": "ELECTRICITY",
-          "dueDate": "14.05.2025",
+          "dueDate": "14.07.2025",
           "total": {
-            "consumed": { "value": 461.8014828700711, "unit": "KWh" },
-            "payable": { "value": 51.05, "unit": "€" }
+            "consumed": { "value": 305.5165689492415, "unit": "KWh" },
+            "payable": { "value": 33.86, "unit": "€" }
           },
           "consumptions": [
-            {
-              "label": "HOUSEHOLD_ELECTRICITY",
-              "value": 151.60000000000036,
-              "unit": "KWh"
-            },
+            { "label": "HOUSEHOLD_ELECTRICITY", "value": 163, "unit": "KWh" },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_START",
-              "value": 4817.9,
+              "value": 5138.9,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_END",
-              "value": 4969.5,
+              "value": 5301.9,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HOT_WATER",
-              "value": 107.7994828700708,
+              "value": 99.61556894924149,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HEATING",
-              "value": 202.40199999999993,
+              "value": 42.90100000000001,
               "unit": "KWh"
             }
           ],
           "prices": [
             {
               "label": "ELECTRICITY_FEE",
-              "value": 0.11053366428793049,
+              "value": 0.11081069429962467,
               "unit": "€/KWh"
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "052025040356" },
+            { "label": "BILL_NUMBER", "value": "072025035071" },
             { "label": "RECEIVER", "value": "AS Alexela" },
             { "label": "REFERENCE_NUMBER", "value": "210005863207" },
             { "label": "Swedbank", "value": "EE112200221055476772" },
@@ -272,42 +280,38 @@
         },
         {
           "label": "ELECTRICITY_NETWORK",
-          "dueDate": "19.05.2025",
+          "dueDate": "17.07.2025",
           "total": {
-            "consumed": { "value": 461.8014828700711, "unit": "KWh" },
-            "payable": { "value": 37.66, "unit": "€" }
+            "consumed": { "value": 305.5165689492415, "unit": "KWh" },
+            "payable": { "value": 30.72, "unit": "€" }
           },
           "consumptions": [
-            {
-              "label": "HOUSEHOLD_ELECTRICITY",
-              "value": 151.60000000000036,
-              "unit": "KWh"
-            },
+            { "label": "HOUSEHOLD_ELECTRICITY", "value": 163, "unit": "KWh" },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_START",
-              "value": 4817.9,
+              "value": 5138.9,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_END",
-              "value": 4969.5,
+              "value": 5301.9,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HOT_WATER",
-              "value": 107.7994828700708,
+              "value": 99.61556894924149,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HEATING",
-              "value": 202.40199999999993,
+              "value": 42.90100000000001,
               "unit": "KWh"
             }
           ],
           "prices": [
             {
               "label": "ELECTRICITY_NETWORK_FEE",
-              "value": 0.03398062061119611,
+              "value": 0.03401297585079927,
               "unit": "€/KWh"
             },
             {
@@ -322,12 +326,12 @@
             },
             {
               "label": "ELECTRICITY_NETWORK_EXCISE_TAX",
-              "value": 0.0017689999999999997,
+              "value": 0.0025619999999999996,
               "unit": "€/KWh"
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "641890940883" },
+            { "label": "BILL_NUMBER", "value": "641185245457" },
             { "label": "RECEIVER", "value": "Enefit AS" },
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
@@ -342,35 +346,39 @@
       "consumables": [
         {
           "label": "WATER",
-          "dueDate": "20.05.2025",
+          "dueDate": "20.07.2025",
           "total": {
-            "consumed": { "value": 15.275000000000057, "unit": "m3" },
-            "payable": { "value": 58.74, "unit": "€" }
+            "consumed": { "value": 14.310499999999966, "unit": "m3" },
+            "payable": { "value": 55.06, "unit": "€" }
           },
           "consumptions": [
             {
               "label": "COLD_WATER_READING_AT_PERIOD_START",
-              "value": 367.565,
+              "value": 384.844,
               "unit": "m3"
             },
             {
               "label": "COLD_WATER_READING_AT_PERIOD_END",
-              "value": 375.559,
+              "value": 392.553,
               "unit": "m3"
             },
-            { "label": "COLD_WATER", "value": 7.994000000000028, "unit": "m3" },
+            { "label": "COLD_WATER", "value": 7.709000000000003, "unit": "m3" },
             {
               "label": "HOT_WATER_READING_AT_PERIOD_START",
-              "value": 319.78,
+              "value": 335.61,
               "unit": "m3"
             },
             {
               "label": "HOT_WATER_READING_AT_PERIOD_END",
-              "value": 326.786,
+              "value": 341.895,
               "unit": "m3"
             },
-            { "label": "HOT_WATER", "value": 7.006000000000029, "unit": "m3" },
-            { "label": "GENERAL_COLD_WATER", "value": 0.275, "unit": "m3" }
+            { "label": "HOT_WATER", "value": 6.284999999999968, "unit": "m3" },
+            {
+              "label": "GENERAL_COLD_WATER",
+              "value": 0.31649999999999423,
+              "unit": "m3"
+            }
           ],
           "prices": [
             { "label": "WATER_FEE", "value": 3.8186, "unit": "€/m3" },
@@ -381,7 +389,7 @@
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "202508050" },
+            { "label": "BILL_NUMBER", "value": "202512228" },
             { "label": "RECEIVER", "value": "Kiili KVH OÜ" },
             { "label": "REFERENCE_NUMBER", "value": "39615" },
             { "label": "Swedbank", "value": "EE112200221017197662" },
@@ -390,43 +398,47 @@
         },
         {
           "label": "ELECTRICITY",
-          "dueDate": "14.05.2025",
+          "dueDate": "14.07.2025",
           "total": {
-            "consumed": { "value": 673.6542301228186, "unit": "KWh" },
-            "payable": { "value": 76.78, "unit": "€" }
+            "consumed": { "value": 454.2300320238182, "unit": "KWh" },
+            "payable": { "value": 52.28, "unit": "€" }
           },
           "consumptions": [
-            { "label": "HOUSEHOLD_ELECTRICITY", "value": 219, "unit": "KWh" },
+            {
+              "label": "HOUSEHOLD_ELECTRICITY",
+              "value": 220.10000000000036,
+              "unit": "KWh"
+            },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_START",
-              "value": 10718.8,
+              "value": 11191.8,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_END",
-              "value": 10937.8,
+              "value": 11411.9,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HOT_WATER",
-              "value": 252.2522301228187,
+              "value": 191.22903202381778,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HEATING",
-              "value": 202.40199999999993,
+              "value": 42.90100000000001,
               "unit": "KWh"
             }
           ],
           "prices": [
             {
               "label": "ELECTRICITY_FEE",
-              "value": 0.11053366428793049,
+              "value": 0.11081069429962467,
               "unit": "€/KWh"
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "052025040356" },
+            { "label": "BILL_NUMBER", "value": "072025035071" },
             { "label": "RECEIVER", "value": "AS Alexela" },
             { "label": "REFERENCE_NUMBER", "value": "210005863207" },
             { "label": "Swedbank", "value": "EE112200221055476772" },
@@ -436,38 +448,42 @@
         },
         {
           "label": "ELECTRICITY_NETWORK",
-          "dueDate": "19.05.2025",
+          "dueDate": "17.07.2025",
           "total": {
-            "consumed": { "value": 673.6542301228186, "unit": "KWh" },
-            "payable": { "value": 53.57, "unit": "€" }
+            "consumed": { "value": 454.2300320238182, "unit": "KWh" },
+            "payable": { "value": 43.59, "unit": "€" }
           },
           "consumptions": [
-            { "label": "HOUSEHOLD_ELECTRICITY", "value": 219, "unit": "KWh" },
+            {
+              "label": "HOUSEHOLD_ELECTRICITY",
+              "value": 220.10000000000036,
+              "unit": "KWh"
+            },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_START",
-              "value": 10718.8,
+              "value": 11191.8,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_END",
-              "value": 10937.8,
+              "value": 11411.9,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HOT_WATER",
-              "value": 252.2522301228187,
+              "value": 191.22903202381778,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HEATING",
-              "value": 202.40199999999993,
+              "value": 42.90100000000001,
               "unit": "KWh"
             }
           ],
           "prices": [
             {
               "label": "ELECTRICITY_NETWORK_FEE",
-              "value": 0.03398062061119611,
+              "value": 0.03401297585079927,
               "unit": "€/KWh"
             },
             {
@@ -482,12 +498,12 @@
             },
             {
               "label": "ELECTRICITY_NETWORK_EXCISE_TAX",
-              "value": 0.0017689999999999997,
+              "value": 0.0025619999999999996,
               "unit": "€/KWh"
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "641890940883" },
+            { "label": "BILL_NUMBER", "value": "641185245457" },
             { "label": "RECEIVER", "value": "Enefit AS" },
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
@@ -502,35 +518,39 @@
       "consumables": [
         {
           "label": "WATER",
-          "dueDate": "20.05.2025",
+          "dueDate": "20.07.2025",
           "total": {
-            "consumed": { "value": 8.182000000000025, "unit": "m3" },
-            "payable": { "value": 31.66, "unit": "€" }
+            "consumed": { "value": 5.986500000000039, "unit": "m3" },
+            "payable": { "value": 23.27, "unit": "€" }
           },
           "consumptions": [
             {
               "label": "COLD_WATER_READING_AT_PERIOD_START",
-              "value": 274.7,
+              "value": 286.354,
               "unit": "m3"
             },
             {
               "label": "COLD_WATER_READING_AT_PERIOD_END",
-              "value": 279.598,
+              "value": 290.201,
               "unit": "m3"
             },
-            { "label": "COLD_WATER", "value": 4.898000000000025, "unit": "m3" },
+            { "label": "COLD_WATER", "value": 3.847000000000037, "unit": "m3" },
             {
               "label": "HOT_WATER_READING_AT_PERIOD_START",
-              "value": 114.239,
+              "value": 121.455,
               "unit": "m3"
             },
             {
               "label": "HOT_WATER_READING_AT_PERIOD_END",
-              "value": 117.248,
+              "value": 123.278,
               "unit": "m3"
             },
-            { "label": "HOT_WATER", "value": 3.0090000000000003, "unit": "m3" },
-            { "label": "GENERAL_COLD_WATER", "value": 0.275, "unit": "m3" }
+            { "label": "HOT_WATER", "value": 1.8230000000000075, "unit": "m3" },
+            {
+              "label": "GENERAL_COLD_WATER",
+              "value": 0.31649999999999423,
+              "unit": "m3"
+            }
           ],
           "prices": [
             { "label": "WATER_FEE", "value": 3.8186, "unit": "€/m3" },
@@ -541,7 +561,7 @@
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "202508050" },
+            { "label": "BILL_NUMBER", "value": "202512228" },
             { "label": "RECEIVER", "value": "Kiili KVH OÜ" },
             { "label": "REFERENCE_NUMBER", "value": "39615" },
             { "label": "Swedbank", "value": "EE112200221017197662" },
@@ -550,47 +570,43 @@
         },
         {
           "label": "ELECTRICITY",
-          "dueDate": "14.05.2025",
+          "dueDate": "14.07.2025",
           "total": {
-            "consumed": { "value": 602.9415604395608, "unit": "KWh" },
-            "payable": { "value": 66.65, "unit": "€" }
+            "consumed": { "value": 406.36806847723517, "unit": "KWh" },
+            "payable": { "value": 45.03, "unit": "€" }
           },
           "consumptions": [
-            {
-              "label": "HOUSEHOLD_ELECTRICITY",
-              "value": 292.2000000000007,
-              "unit": "KWh"
-            },
+            { "label": "HOUSEHOLD_ELECTRICITY", "value": 308, "unit": "KWh" },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_START",
-              "value": 19660.5,
+              "value": 20255.8,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_END",
-              "value": 19952.7,
+              "value": 20563.8,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HOT_WATER",
-              "value": 108.33956043956016,
+              "value": 55.467068477235166,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HEATING",
-              "value": 202.40199999999993,
+              "value": 42.90100000000001,
               "unit": "KWh"
             }
           ],
           "prices": [
             {
               "label": "ELECTRICITY_FEE",
-              "value": 0.11053366428793049,
+              "value": 0.11081069429962467,
               "unit": "€/KWh"
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "052025040356" },
+            { "label": "BILL_NUMBER", "value": "072025035071" },
             { "label": "RECEIVER", "value": "AS Alexela" },
             { "label": "REFERENCE_NUMBER", "value": "210005863207" },
             { "label": "Swedbank", "value": "EE112200221055476772" },
@@ -600,42 +616,38 @@
         },
         {
           "label": "ELECTRICITY_NETWORK",
-          "dueDate": "19.05.2025",
+          "dueDate": "17.07.2025",
           "total": {
-            "consumed": { "value": 602.9415604395608, "unit": "KWh" },
-            "payable": { "value": 44.15, "unit": "€" }
+            "consumed": { "value": 406.36806847723517, "unit": "KWh" },
+            "payable": { "value": 35.44, "unit": "€" }
           },
           "consumptions": [
-            {
-              "label": "HOUSEHOLD_ELECTRICITY",
-              "value": 292.2000000000007,
-              "unit": "KWh"
-            },
+            { "label": "HOUSEHOLD_ELECTRICITY", "value": 308, "unit": "KWh" },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_START",
-              "value": 19660.5,
+              "value": 20255.8,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_READING_AT_PERIOD_END",
-              "value": 19952.7,
+              "value": 20563.8,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HOT_WATER",
-              "value": 108.33956043956016,
+              "value": 55.467068477235166,
               "unit": "KWh"
             },
             {
               "label": "ELECTRICITY_ON_HEATING",
-              "value": 202.40199999999993,
+              "value": 42.90100000000001,
               "unit": "KWh"
             }
           ],
           "prices": [
             {
               "label": "ELECTRICITY_NETWORK_FEE",
-              "value": 0.03398062061119611,
+              "value": 0.03401297585079927,
               "unit": "€/KWh"
             },
             {
@@ -650,12 +662,12 @@
             },
             {
               "label": "ELECTRICITY_NETWORK_EXCISE_TAX",
-              "value": 0.0017689999999999997,
+              "value": 0.0025619999999999996,
               "unit": "€/KWh"
             }
           ],
           "paymentRequisites": [
-            { "label": "BILL_NUMBER", "value": "641890940883" },
+            { "label": "BILL_NUMBER", "value": "641185245457" },
             { "label": "RECEIVER", "value": "Enefit AS" },
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },

@@ -99,7 +99,6 @@
             { "label": "REFERENCE_NUMBER", "value": "210005863207" },
             { "label": "Swedbank", "value": "EE112200221055476772" },
             { "label": "SEB Pank", "value": "EE731010220213091223" },
-            { "label": "Luminor Pank", "value": "" },
             { "label": "LHV", "value": "EE387700771003359948" }
           ]
         },
@@ -165,8 +164,7 @@
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
             { "label": "SEB Pank", "value": "EE081010002059413005" },
-            { "label": "Luminor Pank", "value": "EE431700017000115797" },
-            { "label": "LHV", "value": "EE837700771009807601" }
+            { "label": "LHV", "value": "EE431700017000115797" }
           ]
         }
       ]
@@ -269,7 +267,6 @@
             { "label": "REFERENCE_NUMBER", "value": "210005863207" },
             { "label": "Swedbank", "value": "EE112200221055476772" },
             { "label": "SEB Pank", "value": "EE731010220213091223" },
-            { "label": "Luminor Pank", "value": "" },
             { "label": "LHV", "value": "EE387700771003359948" }
           ]
         },
@@ -335,8 +332,7 @@
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
             { "label": "SEB Pank", "value": "EE081010002059413005" },
-            { "label": "Luminor Pank", "value": "EE431700017000115797" },
-            { "label": "LHV", "value": "EE837700771009807601" }
+            { "label": "LHV", "value": "EE431700017000115797" }
           ]
         }
       ]
@@ -397,7 +393,7 @@
           "dueDate": "14.06.2025",
           "total": {
             "consumed": { "value": 625.1814839589703, "unit": "KWh" },
-            "payable": { "value": 68.65, "unit": "€" }
+            "payable": { "value": 71.05000000000001, "unit": "€" }
           },
           "consumptions": [
             { "label": "HOUSEHOLD_ELECTRICITY", "value": 254, "unit": "KWh" },
@@ -435,7 +431,6 @@
             { "label": "REFERENCE_NUMBER", "value": "210005863207" },
             { "label": "Swedbank", "value": "EE112200221055476772" },
             { "label": "SEB Pank", "value": "EE731010220213091223" },
-            { "label": "Luminor Pank", "value": "" },
             { "label": "LHV", "value": "EE387700771003359948" }
           ]
         },
@@ -444,7 +439,7 @@
           "dueDate": "17.06.2025",
           "total": {
             "consumed": { "value": 625.1814839589703, "unit": "KWh" },
-            "payable": { "value": 45.39, "unit": "€" }
+            "payable": { "value": 51.26, "unit": "€" }
           },
           "consumptions": [
             { "label": "HOUSEHOLD_ELECTRICITY", "value": 254, "unit": "KWh" },
@@ -497,8 +492,7 @@
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
             { "label": "SEB Pank", "value": "EE081010002059413005" },
-            { "label": "Luminor Pank", "value": "EE431700017000115797" },
-            { "label": "LHV", "value": "EE837700771009807601" }
+            { "label": "LHV", "value": "EE431700017000115797" }
           ]
         }
       ]
@@ -601,7 +595,6 @@
             { "label": "REFERENCE_NUMBER", "value": "210005863207" },
             { "label": "Swedbank", "value": "EE112200221055476772" },
             { "label": "SEB Pank", "value": "EE731010220213091223" },
-            { "label": "Luminor Pank", "value": "" },
             { "label": "LHV", "value": "EE387700771003359948" }
           ]
         },
@@ -667,8 +660,7 @@
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
             { "label": "SEB Pank", "value": "EE081010002059413005" },
-            { "label": "Luminor Pank", "value": "EE431700017000115797" },
-            { "label": "LHV", "value": "EE837700771009807601" }
+            { "label": "LHV", "value": "EE431700017000115797" }
           ]
         }
       ]

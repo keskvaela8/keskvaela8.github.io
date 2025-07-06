@@ -397,7 +397,7 @@
           "dueDate": "14.02.2025",
           "total": {
             "consumed": { "value": 1083.8544569144947, "unit": "KWh" },
-            "payable": { "value": 120.52, "unit": "€" }
+            "payable": { "value": 123.19, "unit": "€" }
           },
           "consumptions": [
             { "label": "HOUSEHOLD_ELECTRICITY", "value": 321, "unit": "KWh" },
@@ -444,7 +444,7 @@
           "dueDate": "17.02.2025",
           "total": {
             "consumed": { "value": 1083.8544569144947, "unit": "KWh" },
-            "payable": { "value": 66.77, "unit": "€" }
+            "payable": { "value": 67.63, "unit": "€" }
           },
           "consumptions": [
             { "label": "HOUSEHOLD_ELECTRICITY", "value": 321, "unit": "KWh" },

@@ -413,7 +413,7 @@
           "dueDate": "14.04.2025",
           "total": {
             "consumed": { "value": 891.6681327554205, "unit": "KWh" },
-            "payable": { "value": 98.04, "unit": "€" }
+            "payable": { "value": 101.60000000000001, "unit": "€" }
           },
           "consumptions": [
             {
@@ -464,7 +464,7 @@
           "dueDate": "17.04.2025",
           "total": {
             "consumed": { "value": 891.6681327554205, "unit": "KWh" },
-            "payable": { "value": 57.19, "unit": "€" }
+            "payable": { "value": 58.51, "unit": "€" }
           },
           "consumptions": [
             {
