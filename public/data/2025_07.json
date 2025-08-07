@@ -160,7 +160,8 @@
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
             { "label": "SEB Pank", "value": "EE081010002059413005" },
-            { "label": "LHV", "value": "EE431700017000115797" }
+            { "label": "Luminor", "value": "EE431700017000115797" },
+            { "label": "LHV", "value": "EE837700771009807601" }
           ]
         }
       ]
@@ -324,7 +325,8 @@
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
             { "label": "SEB Pank", "value": "EE081010002059413005" },
-            { "label": "LHV", "value": "EE431700017000115797" }
+            { "label": "Luminor", "value": "EE431700017000115797" },
+            { "label": "LHV", "value": "EE837700771009807601" }
           ]
         }
       ]
@@ -496,7 +498,8 @@
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
             { "label": "SEB Pank", "value": "EE081010002059413005" },
-            { "label": "LHV", "value": "EE431700017000115797" }
+            { "label": "Luminor", "value": "EE431700017000115797" },
+            { "label": "LHV", "value": "EE837700771009807601" }
           ]
         }
       ]
@@ -668,7 +671,8 @@
             { "label": "REFERENCE_NUMBER", "value": "64121654177" },
             { "label": "Swedbank", "value": "EE322200221112223334" },
             { "label": "SEB Pank", "value": "EE081010002059413005" },
-            { "label": "LHV", "value": "EE431700017000115797" }
+            { "label": "Luminor", "value": "EE431700017000115797" },
+            { "label": "LHV", "value": "EE837700771009807601" }
           ]
         }
       ]
