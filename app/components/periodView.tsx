@@ -7,6 +7,7 @@ import { Apartment } from "../models/models";
 import PeriodGeneralView from "./periodGeneralDetails";
 import PaymentSection from "./payment/paymentSection";
 import CostHistoryChart from "./costHistoryChart";
+import SeasonalComparison from "./seasonalComparison";
 
 export default function PeriodView() {
   const { apartment, selectedPeriod } = useAppState();
@@ -50,6 +51,10 @@ export default function PeriodView() {
           </Grid.Col>
         </Grid>
         <CostHistoryChart
+          apartment={apartment}
+          currentPeriod={selectedPeriod!}
+        />
+        <SeasonalComparison
           apartment={apartment}
           currentPeriod={selectedPeriod!}
         />
