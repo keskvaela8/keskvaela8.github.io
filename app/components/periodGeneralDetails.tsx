@@ -24,7 +24,7 @@ interface PeriodGeneralViewProps {
   period: Period;
 }
 
-const consumableConfig: Record<
+export const consumableConfig: Record<
   ConsumableLabel,
   { label: string; color: string; icon: typeof IconDroplet; chartColor: string }
 > = {

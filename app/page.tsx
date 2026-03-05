@@ -37,24 +37,24 @@ export default function Home() {
     <QueryClientProvider client={queryClient}>
       <AppShell header={{ height: 56 }} padding="md">
         <AppShell.Header>
-          <Group h="100%" px="md" gap="sm" justify="space-between">
-            <Group gap="sm">
-              <IconHome size={20} stroke={1.5} />
-              <Text fw={600} size="sm" visibleFrom="xs">
+          <Group h="100%" px="xs" gap="xs" justify="space-between" wrap="nowrap">
+            <Group gap="xs" wrap="nowrap">
+              <IconHome size={20} stroke={1.5} style={{ flexShrink: 0 }} />
+              <Text fw={600} size="sm" visibleFrom="xs" style={{ whiteSpace: "nowrap" }}>
                 Kesk-Vaela 8
               </Text>
               {apartment && <ClearApartmentSelectionButton />}
             </Group>
-            <Group gap="sm">
+            <Group gap="xs" wrap="nowrap">
               {apartment && (
                 <Select
-                  size="sm"
+                  size="xs"
                   data={selectablePeriods()}
-                  placeholder="Vali periood"
+                  placeholder="Periood"
                   value={selectedPeriod || ""}
                   onChange={(value) => setSelectedPeriod(value)}
                   allowDeselect={false}
-                  styles={{ input: { minWidth: 130 } }}
+                  styles={{ input: { width: 110 } }}
                 />
               )}
               <ColorSchemeToggle />

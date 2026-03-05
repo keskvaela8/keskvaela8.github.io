@@ -1,4 +1,4 @@
-import { Center, Container, Grid, Loader } from "@mantine/core";
+import { Center, Container, Grid, Loader, Stack } from "@mantine/core";
 import { useAppState } from "../state/useAppState";
 import { usePeriodData } from "../queries";
 import { ApartmentSelectionView } from "./apartmentSelectionView";
@@ -6,6 +6,7 @@ import { Text } from "@mantine/core";
 import { Apartment } from "../models/models";
 import PeriodGeneralView from "./periodGeneralDetails";
 import PaymentSection from "./payment/paymentSection";
+import CostHistoryChart from "./costHistoryChart";
 
 export default function PeriodView() {
   const { apartment, selectedPeriod } = useAppState();
@@ -33,20 +34,26 @@ export default function PeriodView() {
 
   return (
     <Container size="lg" px={0}>
-      <Grid grow>
-        <Grid.Col span={{ base: 12, md: 6 }}>
-          <PeriodGeneralView
-            apartment={apartmentData}
-            period={periodData.period}
-          />
-        </Grid.Col>
-        <Grid.Col span={{ base: 12, md: 6 }}>
-          <PaymentSection
-            apartment={apartmentData}
-            period={periodData.period}
-          />
-        </Grid.Col>
-      </Grid>
+      <Stack gap="md">
+        <Grid grow>
+          <Grid.Col span={{ base: 12, md: 6 }}>
+            <PeriodGeneralView
+              apartment={apartmentData}
+              period={periodData.period}
+            />
+          </Grid.Col>
+          <Grid.Col span={{ base: 12, md: 6 }}>
+            <PaymentSection
+              apartment={apartmentData}
+              period={periodData.period}
+            />
+          </Grid.Col>
+        </Grid>
+        <CostHistoryChart
+          apartment={apartment}
+          currentPeriod={selectedPeriod!}
+        />
+      </Stack>
     </Container>
   );
 }
