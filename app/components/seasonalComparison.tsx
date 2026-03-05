@@ -81,17 +81,13 @@ function ChangeIndicator({ current, previous }: { current: number; previous: num
   );
 }
 
-const UNIT_PRICE_LABELS: Record<ConsumableLabel, string> = {
-  [ConsumableLabel.Water]: "WATER_FEE",
-  [ConsumableLabel.Electricity]: "ELECTRICITY_FEE",
-  [ConsumableLabel.ElectricityNetwork]: "ELECTRICITY_NETWORK_FEE",
-};
-
 function getUnitPrice(consumable: Consumable): { value: number; unit: string } | null {
-  const priceLabel = UNIT_PRICE_LABELS[consumable.label];
-  const price = consumable.prices.find((p) => p.label === priceLabel);
-  if (!price || price.value === 0) return null;
-  return { value: price.value, unit: price.unit };
+  const { payable, consumed } = consumable.total;
+  if (!consumed.value || consumed.value === 0) return null;
+  return {
+    value: payable.value / consumed.value,
+    unit: `${payable.unit}/${consumed.unit}`,
+  };
 }
 
 export default function SeasonalComparison({
