@@ -1,7 +1,8 @@
 import { Apartment, Period } from "@/app/models/models";
 import { useAppState } from "@/app/state/useAppState";
 import { generatePain001, getBicFromIban } from "@/app/util/paymentUtil";
-import { Button, Text, TextInput } from "@mantine/core";
+import { Button, Group, Stack, TextInput, Title } from "@mantine/core";
+import { IconDownload, IconFileCode } from "@tabler/icons-react";
 import { isNotEmpty, useForm } from "@mantine/form";
 import { useState } from "react";
 
@@ -78,31 +79,35 @@ export default function PaymentExportForm({
 
   return (
     <>
-      <Text mt="md" fw={700}>
-        Impordi maksed (xml failina)
-      </Text>
+      <Group gap="xs" mb="sm">
+        <IconFileCode size={20} stroke={1.5} />
+        <Title order={3}>Impordi maksed</Title>
+      </Group>
       <form onSubmit={form.onSubmit(handleSubmit)}>
-        <TextInput
-          mt="md"
-          label="Maksja nimi"
-          placeholder="Maksja nimi"
-          {...form.getInputProps("name")}
-        />
-        <TextInput
-          mt="md"
-          label="Maksja IBAN"
-          placeholder="Maksja IBAN"
-          {...form.getInputProps("iban")}
-        />
-        <TextInput
-          mt="md"
-          label="Maksja BIC"
-          placeholder="Maksja BIC"
-          {...form.getInputProps("bic")}
-        />
-        <Button type="submit" mt="md">
-          Lae maksete XML alla
-        </Button>
+        <Stack gap="sm">
+          <TextInput
+            label="Maksja nimi"
+            placeholder="Maksja nimi"
+            {...form.getInputProps("name")}
+          />
+          <TextInput
+            label="Maksja IBAN"
+            placeholder="EE..."
+            {...form.getInputProps("iban")}
+          />
+          <TextInput
+            label="Maksja BIC"
+            placeholder="Maksja BIC"
+            {...form.getInputProps("bic")}
+          />
+          <Button
+            type="submit"
+            leftSection={<IconDownload size={16} />}
+            variant="light"
+          >
+            Lae maksete XML alla
+          </Button>
+        </Stack>
       </form>
     </>
   );

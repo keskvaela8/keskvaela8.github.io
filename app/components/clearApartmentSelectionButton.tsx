@@ -1,21 +1,20 @@
-import { ActionIcon, Group, Text } from "@mantine/core";
+import { Badge, CloseButton, Group } from "@mantine/core";
 import { useAppState } from "../state/useAppState";
-import { IconLogout } from "@tabler/icons-react";
 
 export function ClearApartmentSelectionButton() {
   const { setApartment, apartment } = useAppState();
 
   return (
-    <Group gap="xs">
-      <Text visibleFrom="xxs">Korter: {apartment}</Text>
-      <ActionIcon
+    <Group gap={4}>
+      <Badge variant="light" size="lg" radius="sm">
+        Korter {apartment}
+      </Badge>
+      <CloseButton
+        size="sm"
         variant="subtle"
-        color="red"
         title="Vali teine korter"
         onClick={() => setApartment(null)}
-      >
-        <IconLogout />
-      </ActionIcon>
+      />
     </Group>
   );
 }

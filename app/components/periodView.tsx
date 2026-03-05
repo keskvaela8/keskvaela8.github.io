@@ -1,4 +1,4 @@
-import { Center, Grid, Loader } from "@mantine/core";
+import { Center, Container, Grid, Loader } from "@mantine/core";
 import { useAppState } from "../state/useAppState";
 import { usePeriodData } from "../queries";
 import { ApartmentSelectionView } from "./apartmentSelectionView";
@@ -32,16 +32,21 @@ export default function PeriodView() {
   }
 
   return (
-    <Grid p="md" grow>
-      <Grid.Col span={{ base: 12, md: 6 }}>
-        <PeriodGeneralView
-          apartment={apartmentData}
-          period={periodData.period}
-        />
-      </Grid.Col>
-      <Grid.Col span={{ base: 12, md: 6 }}>
-        <PaymentSection apartment={apartmentData} period={periodData.period} />
-      </Grid.Col>
-    </Grid>
+    <Container size="lg" px={0}>
+      <Grid grow>
+        <Grid.Col span={{ base: 12, md: 6 }}>
+          <PeriodGeneralView
+            apartment={apartmentData}
+            period={periodData.period}
+          />
+        </Grid.Col>
+        <Grid.Col span={{ base: 12, md: 6 }}>
+          <PaymentSection
+            apartment={apartmentData}
+            period={periodData.period}
+          />
+        </Grid.Col>
+      </Grid>
+    </Container>
   );
 }
